@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-top {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.header-title input {
+    color: #FFFFFF;
+    padding-left: 25px;
+    width: 390px;
+    height: 35px;
+    background: rgba(122, 122, 122, 0.45);
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0.45;
+}
+.header-title ion-icon {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 6px;
+    right: 15px;
+
+}
+.header-title{
+    position: relative;
+}
+.header-bottom a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1170px;
+    height: 46px;
+    background: #013475;
+    border-radius: 39px;
+}
+
+
+.hero{
+    margin-top: 95px ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.hero-title h1{
+    padding-left: 30px;
+    padding-bottom: 35px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+/*.hero-subtitle{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+
+.hero-subtitle a{
+    font-size: 35px;
+    padding: 0 35px;
+}
+.hero-block{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 115.98px;
+    height: 107px;
+    left: 753.96px;
+    top: 329px;
+    background: #013475;
+    box-shadow: 18px 18px 80px #000000;
+    border-radius: 10px;
+}
+.hero-subtitle h5{
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.hero-subtitle hr{
+
+    width: 75px;
+}
+.hero-subtitle h4{
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-subtitle{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+.hero-title{
+    margin-left: 60px;
+}
+.hero-text ion-icon{
+    padding-right: 10px;
+    font-size: 25px;
+
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.hero-text h2{
+    padding-top: 70px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.hero-text h3 {
+    padding-bottom: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.hero-text h4{
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.hero-text h5{
+    /*padding-bottom: 30px;*/
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+
+}
+
+#footer img{
+    padding-top: 40px   ;
+    padding-bottom: 45px;
+}
+#footer{
+    background: #1F1F1F;
+    backdrop-filter: blur(2px);
+    margin-top: 180px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+}
+.footer-info h1{
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-info a{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+}
+.footer-title h1{
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.footer-title a{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+
+}
+.footer-num p{
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.footer-num a{
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+#blocks h1{
+    padding: 45px 0;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+
+}
+.block h2{
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.block h3 ion-icon{
+    font-size: 16px;
+    padding-right: 4px ;
+}
+.block h3{
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.block h4{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+
+}
+.block p ion-icon{
+    font-size: 18px;
+    padding-right: 4px;
+
+}
+.block p{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+span{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.blocks-title{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    margin-bottom: 120px;
+    padding-right: 25px;
+    width: 211px;
+    height: 399px;
+}
+.hero-komp h1{
+    padding-top: 95px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+.hero-komp p{
+    padding-top: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+.number h1{
+    padding: 75px 0;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.number p{
+    padding-bottom: 45px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.kassa h1{
+    padding: 95px 0 40px 0;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.kassa p{
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.4%;
+    color: #FFFFFF;
+}
+.error h1{
+    padding-top: 180px;
+    font-weight: 300;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+.error button{
+    margin-top: 75px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 273px;
+    height: 54px;
+    background: #013475;
+    border-radius: 12px;
+}
+.error-title{
+    padding-top: 150px;
+    width: 530px;
+    height: 200px;
+}
+.error{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+
+
+
+
+
+
+
